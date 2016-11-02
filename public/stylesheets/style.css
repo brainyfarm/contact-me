@@ -6,27 +6,20 @@ body {
 .jumbotron{
   margin-top: 5px;
   text-align: center;
-  line-height: 0.02em;
 }
-.jumbotron h2{
+.jumbotron h1{
     font-family: "Arial Black", cursive;
 }
 
-.form-wrapper{
-  border-radius: 5px;
+
+.message-form{
+  float: none;
   margin: 0 auto;
-  width: 98% !important;
-  background-color: #EEE;
-  padding: 10px;
+  padding: 20px;
+  background-color: #FFF;
+  border-radius: 10px;
 }
 
 a {
   color: #00B7FF;
-}
-
-@media only screen and (max-width: 500px) {
-    body {
- 
-    font-size: 25px !important;
-    }
 }
