@@ -1,8 +1,28 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font: 14px 'Simonetta', cursive;
+    background-color: mediumpurple;
+    padding: 10px;
 }
 
+.jumbotron{
+  margin-top: 5px;
+  text-align: center;
+  line-height: 0.02em;
+}
+.jumbotron h2{
+    font-family: "Arial Black", cursive;
+}
+
+.form-wrapper{
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 90% !important;
+  background-color: #EEE;
+  padding: 10px;
+}
+
+.form-wrapper h2{
+}
 a {
   color: #00B7FF;
 }
