@@ -1,0 +1,39 @@
+<% include partial/head %>
+<body>
+<div class="container">
+  <div class="jumbotron">
+    <h2> Olawale Akinseye </h2>
+    <h4> You can reach me here, anonymously! </h4>
+  </div>
+
+  <div class="row">
+    <div class="col s12">
+
+      <div class="form-wrapper">
+          <h2 class="text-center"> Send a text</h2>
+          <form action="" method="POST">
+            <div class="form-group">
+              <label for="sender"> Sender </label>
+              <input type="text" maxlength="18" class="form-control" placeholder="Sender" name="sender" id="sender" />
+            </div>
+
+            <div class="form-group">
+              <label for="message"> Your Message </label>
+              <textarea type="text" maxlength="140" class="form-control" placeholder="Your message" name="message" id="message"></textarea>
+              <div id="textarea_feedback"></div>
+            </div>
+
+            <div class="form-group">
+              <button class="btn btn-default btn-primary">Send message</button>
+            </div>
+          </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="javascripts/main.js"></script>
+
+</body>
