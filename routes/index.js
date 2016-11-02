@@ -1,9 +1,10 @@
 var express = require('express');
 var router = express.Router();
+const homeCtrl = require('../controllers/home');
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Send Olawale an SMS for free' });
-});
+/* Home page. */
+router.get('/', homeCtrl.getHome);
+router.post('/', homeCtrl.sendMessage);
+
 
 module.exports = router;
