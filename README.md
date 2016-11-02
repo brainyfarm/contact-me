@@ -1,2 +1,2 @@
-# contact-me
-A simple front end page to allow people send me SMS anonymously
+# SMS Me
+A simple project to allow people send me SMS anonymously.
