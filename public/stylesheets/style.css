@@ -17,11 +17,9 @@ body {
   margin: 0 auto;
   width: 98% !important;
   background-color: #EEE;
-  padding: 5px;
+  padding: 10px;
 }
 
-.form-wrapper h2{
-}
 a {
   color: #00B7FF;
 }
